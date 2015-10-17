@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-c343e44fdd665a87cb57998e9495665536c4ded1.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-b89dfb0a0f13b96fafa0dc040b6e7ae5d0a76af2.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-e29e1442fe31b634ebf6c363bbe80dd3e60bdcb5.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-a79794167c69ac4131fa1e3327d3de50ba5059e7.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-c314f03ac82af5474d01fca13794bca228e1f6d7.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d5f8c67dc9be35e521b56d05765cccfe7aad53bb.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-f9ed2820c5dcc338a9824f1994b30be96e4b6bce.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-7e0825b03b927aea84f2b3d5dcefe98bcbec6488.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-4fc8f3ab5a7d6fbf7377f8d31bbec23e57a31823.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-353402f0b394faa30a3116a8ac232b82d08065ee.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-2b78699d16fda27a94d2993cf345eb631131a896.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-50a7f7591694d063b78c329197a6fa64e3be99a4.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/core/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e8b6879d91dcc5368cf1cdc6cd9599b246549fa1">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-20e1cd0a390b68b2d78e9a84414bd8cddcafefc9.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-380c89d3b3d0d6cd07edc5f2a8a3cdf828c4cdb3.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-f6ed6097bc713312dabce0acfc24b55cd8a0cd49.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-a135be75827e47d7509594cd40e771c19ff22605.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d0c26c0400f42fe5d5d99e3716ad848abfcfdd1d.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Developer/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-f2258f674c5f2baeaa23a799315a9fec538d9370.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-79266fbf9f278bfcf60dbbc0eefc344822fb2d2f.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-08843cdff893aecbe155763c59f34c2ff75eb0b5.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-8aebaf755c5888ec4485dd67f8a7a30a4ec1b7e9.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-d2a62e049100e456cdec47b6c77bb3a7fb643ee7.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okio-1.4.0-0f87ba033391575bc9ceecfe7cf4682700a92bb7.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-5b36bfeb2e36bd15c7f1ea4eabb4708d9790e441.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-779980db780925ff77b3feec6623742abefcf8b0.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-e41b81d493d6c1ec8ea513965790645d37a88b2a.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/push/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="041ea8c72bacdb10270b30771ed382fa753078eb">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-a9cc7065935b3d9ddd4088ee4ed2302c3c46eed2.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-224138ede8d0133ab0d78642e0f1710373448ba1.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-e0854ce94074d5ac0cd30a00eb45241ee7a91c3d.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-9d826122fe111b649ce583a192de638415a2eb17.jar" />
+    </item>
+    <item
+        jar="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/cshunger/Downloads/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-498e38465a8ccbc5248b308d4468b6d6f56c9f86.jar" />
+    </item>
+
+</items>
