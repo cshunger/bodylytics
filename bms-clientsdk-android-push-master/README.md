@@ -1,2 +1,1 @@
-# bms-clientsdk-android-push
-Push notifications SDK for Bluemix Mobile Services
+#Starter POC for bodylytics
