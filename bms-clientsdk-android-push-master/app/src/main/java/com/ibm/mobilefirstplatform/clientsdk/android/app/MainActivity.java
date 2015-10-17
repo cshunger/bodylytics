@@ -46,7 +46,6 @@ public class MainActivity extends Activity {
 
         MFPPush.getInstance().initialize(getApplicationContext());
         push = MFPPush.getInstance();
-        Log.v("OnCreate", "before register");
 
         push.register(new MFPPushResponseListener<String>() {
             @Override
@@ -61,20 +60,13 @@ public class MainActivity extends Activity {
                         + "Push notifications will not be received.");
             }
         });
-        Log.v("onCreate", "after register");
-        Log.v("onCreate", String.valueOf(push.isPushSupported()));
-
+        
         final Activity activity = this;
-
-
-
-
-
-            notificationListener = new MFPPushNotificationListener() {
+        notificationListener = new MFPPushNotificationListener() {
 
                 @Override
                 public void onReceive(final MFPSimplePushNotification message) {
-                    showNotification(activity, message);
+                showNotification(activity, message);
 
                 }
         };
