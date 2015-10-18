@@ -4,10 +4,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
+import android.view.View;
 import android.widget.TextView;
 import android.app.AlertDialog.Builder;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.widget.EditText;
+import android.widget.Button;
+
 
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPush;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushException;
@@ -15,8 +19,19 @@ import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushNotificatio
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPushResponseListener;
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPSimplePushNotification;
 import com.ibm.mobilefirstplatform.clientsdk.android.core.api.BMSClient;
-
+import com.squareup.okhttp.OkHttpClient;
+import com.squareup.okhttp.Request;
+import com.squareup.okhttp.Response;
+import com.squareup.okhttp.RequestBody;
+import com.squareup.okhttp.MediaType;
+import com.squareup.okhttp.Headers;
+import com.squareup.okhttp.Callback;
+import com.squareup.okhttp.Call;
 import java.io.IOException;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.net.MalformedURLException;
 import java.util.List;
 
@@ -29,14 +44,50 @@ public class MainActivity extends Activity {
 
     private List<String> allTags;
     private List<String> subscribedTags;
+    private EditText alertTextBox;
+    private Button alertButton;
+
+    public static final MediaType JSON = MediaType.parse("application/json; charset=utf-8");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         txtVResult = (TextView) findViewById(R.id.display);
+        alertButton = (Button) findViewById(R.id.alertButton);
+        alertTextBox = (EditText) findViewById(R.id.alertText);
 
         updateTextView("Starting Push Android Sample..");
+
+        alertButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    postData(new Callback() {
+                        @Override
+                        public void onFailure(Request request, IOException ex) {
+                            // Something went wrong
+                            Log.v("Response Failed", "Bad");
+                        }
+
+                        @Override
+                        public void onResponse(Response response) throws IOException {
+                            if (response.isSuccessful()) {
+                                String responseStr = response.body().string();
+                                // Do what you want to do with the response.
+                                Log.v("Response Success", "Good");
+                            } else {
+                                // Request not successful
+                            }
+                        }
+                    });
+                    Log.v("Posted Data", "data psoted");
+                } catch (Exception ex){
+                    //swallow exception
+                    Log.e("MYAPP", "exception", ex);
+                }
+            }
+        }); //End of onClickListenter
 
         try {
             BMSClient.getInstance().initialize(this, "https://pushingyoutest.mybluemix.net", "11df73b1-b967-4fd7-b7ba-97618427a67d");
@@ -60,7 +111,7 @@ public class MainActivity extends Activity {
                         + "Push notifications will not be received.");
             }
         });
-        
+
         final Activity activity = this;
         notificationListener = new MFPPushNotificationListener() {
 
@@ -93,6 +144,10 @@ public class MainActivity extends Activity {
 
         AlertDialog dialog = builder.create();
         dialog.show();
+    }
+
+    void sendNotification(Activity activity){
+
     }
 
     void displayTags() {
@@ -176,7 +231,7 @@ public class MainActivity extends Activity {
                         @Override
                         public void onSuccess(String arg0) {
                             updateTextView("Succesfully Subscribed to: "+ arg0);
-                            unsubscribeFromTags(arg0);
+                            //unsubscribeFromTags(arg0);
                         }
                     });
         } else {
@@ -210,5 +265,34 @@ public class MainActivity extends Activity {
             push.hold();
         }
 
+    }
+
+    public Call postData(Callback callback) throws Exception{
+        // Create a new HttpClient and Post Header
+        OkHttpClient httpClient = new OkHttpClient();
+        JSONObject message=new JSONObject();
+
+        try {
+            message.put("message", new String("\"message:\"alert\": \""+alertTextBox.getText().toString()+"\""));
+
+        }catch (JSONException ex){
+            Log.v("error", "JSONError");
+        }
+
+        RequestBody body = RequestBody.create(JSON, "{\"message\": {\"alert\": \""+alertTextBox.getText().toString()+"\"}}");
+        Request request = new Request.Builder()
+                .url("https://mobile.ng.bluemix.net/imfpush/v1/apps/11df73b1-b967-4fd7-b7ba-97618427a67d/messages")
+                .header("Content-Type", "application/json")
+                .header("Accept", "application/json")
+                .header("appSecret", "b24b1e2d-72fe-455d-b405-4214abae41ef")
+                .header("Accept-Language", "en-US")
+                .header("Application-mode", "SANDBOX")
+                .post(body)
+                .build();
+
+
+        Call call = httpClient.newCall(request);
+        call.enqueue(callback);
+        return call;
     }
 }
