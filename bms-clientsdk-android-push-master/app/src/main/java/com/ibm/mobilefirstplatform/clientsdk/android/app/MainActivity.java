@@ -11,6 +11,8 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.widget.EditText;
 import android.widget.Button;
+import android.os.*;
+import android.os.Handler;
 
 
 import com.ibm.mobilefirstplatform.clientsdk.android.push.api.MFPPush;
@@ -59,36 +61,6 @@ public class MainActivity extends Activity {
 
         updateTextView("Starting Push Android Sample..");
 
-        alertButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                try {
-                    postData(new Callback() {
-                        @Override
-                        public void onFailure(Request request, IOException ex) {
-                            // Something went wrong
-                            Log.v("Response Failed", "Bad");
-                        }
-
-                        @Override
-                        public void onResponse(Response response) throws IOException {
-                            if (response.isSuccessful()) {
-                                String responseStr = response.body().string();
-                                // Do what you want to do with the response.
-                                Log.v("Response Success", "Good");
-                            } else {
-                                // Request not successful
-                            }
-                        }
-                    });
-                    Log.v("Posted Data", "data psoted");
-                } catch (Exception ex){
-                    //swallow exception
-                    Log.e("MYAPP", "exception", ex);
-                }
-            }
-        }); //End of onClickListenter
-
         try {
             BMSClient.getInstance().initialize(this, "https://pushingyoutest.mybluemix.net", "11df73b1-b967-4fd7-b7ba-97618427a67d");
         } catch (MalformedURLException e){
@@ -115,12 +87,48 @@ public class MainActivity extends Activity {
         final Activity activity = this;
         notificationListener = new MFPPushNotificationListener() {
 
-                @Override
-                public void onReceive(final MFPSimplePushNotification message) {
+            @Override
+            public void onReceive(final MFPSimplePushNotification message) {
                 showNotification(activity, message);
 
-                }
+            }
         };
+
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                //Do something after 5s
+                sendAlert();
+            }
+        }, 10000);
+    }
+
+    public void sendAlert() {
+        try {
+            postData(new Callback() {
+                @Override
+                public void onFailure(Request request, IOException ex) {
+                    // Something went wrong
+                    Log.v("Response Failed", "Bad");
+                }
+
+                @Override
+                public void onResponse(Response response) throws IOException {
+                    if (response.isSuccessful()) {
+                        String responseStr = response.body().string();
+                        // Do what you want to do with the response.
+                        Log.v("Response Success", "Good");
+                    } else {
+                        // Request not successful
+                    }
+                }
+            });
+            Log.v("Posted Data", "data psoted");
+        } catch (Exception ex){
+            //swallow exception
+            Log.e("MYAPP", "exception", ex);
+        }
     }
 
     @Override
@@ -175,7 +183,7 @@ public class MainActivity extends Activity {
 
             @Override
             public void onFailure(MFPPushException e) {
-                updateTextView("Device unregistration failure. Failure response is: "+ e);
+                updateTextView("Device unregistration failure. Failure response is: " + e);
             }
         });
     }
@@ -267,19 +275,22 @@ public class MainActivity extends Activity {
 
     }
 
+
+
+
     public Call postData(Callback callback) throws Exception{
         // Create a new HttpClient and Post Header
         OkHttpClient httpClient = new OkHttpClient();
         JSONObject message=new JSONObject();
 
         try {
-            message.put("message", new String("\"message:\"alert\": \""+alertTextBox.getText().toString()+"\""));
+            message.put("message", new String("\"message:\"alert\": \"hello\""));
 
         }catch (JSONException ex){
             Log.v("error", "JSONError");
         }
 
-        RequestBody body = RequestBody.create(JSON, "{\"message\": {\"alert\": \""+alertTextBox.getText().toString()+"\"}}");
+        RequestBody body = RequestBody.create(JSON, "{\"message\": {\"alert\": \"ALERT. Is this an emergency? Click to reply.\"}}");
         Request request = new Request.Builder()
                 .url("https://mobile.ng.bluemix.net/imfpush/v1/apps/11df73b1-b967-4fd7-b7ba-97618427a67d/messages")
                 .header("Content-Type", "application/json")

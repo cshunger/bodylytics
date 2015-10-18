@@ -2,95 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d08750273352a2745c7a5fa1625d3936daf8d3e2.jar" />
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-941b91a3afae7d0744f11b953a58479f6c9c9833.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-f0658f4e111845668fd21d5af3e297e21303e1f0.jar" />
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-436e8d37045b14a7580ebc5f0591823252a3b525.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-1a3caf5a31f80e82af8e66e7b350fea3abdba795.jar" />
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-1db8b706d3bd3f2ad43c800d09f3dbb101098c74.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-8bbd3b66939a5e21c66a10c41b15de56263380c5.jar" />
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d040237dca3cd9a37bb15c08dfd443e19c5f6ad6.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okio-1.4.0-89ec41584432c79ee2049aa32684058febd7f0b0.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-b14923ad7f315501a19efc62375cc74801e608ac.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-fc859397b9e2aff65d35a23ee76982e33e2d5a61.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/push/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="041ea8c72bacdb10270b30771ed382fa753078eb">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-959281f7efc1a39c93c97dc273d6c167d5e917bf.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-9db515f72786a414baf0fbdb6b472f71a2ac2704.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2e24e5f1b11170163028277de63f709e42525db4">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-376e261826bb839a2ebb86b418b7a7ad5570480f.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-245aef177ad16c1b8a7ace7e993b045c1cb1a6af.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-5d68198ab8dae5f0af71479307bb40ea117a0133.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-44642b8933bcaee1a44cbff58559330a0341d3d0.jar" />
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-dde41a4a1ac4ef5d9d3a297795646245396448de.jar" />
     </item>
     <item
         jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
@@ -107,88 +51,11 @@
         <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-29bb4052294c893220bfae8fa0f6bcc928798d82.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-b136fa969e199ce5b1eef620ff7a571e6317e434.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-1db8b706d3bd3f2ad43c800d09f3dbb101098c74.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-dde41a4a1ac4ef5d9d3a297795646245396448de.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-6d2a851041668adf96243a109ad2866679f169f6.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-b65c86fe579e4def17910f703904e7fee8467c3d.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-bc98bac6ef5db73aca2288831a9dc0b1b23ad383.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-436e8d37045b14a7580ebc5f0591823252a3b525.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-56c3e9fc4528638c1b96e4fb944a0fc57fdcf353.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-48285023a5b885bf429a4ba874c80363d37c6b4f.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-941b91a3afae7d0744f11b953a58479f6c9c9833.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-4bb42cc99845959313f79e934a778e69aed448ba.jar" />
-    </item>
-    <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/core/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="e8b6879d91dcc5368cf1cdc6cd9599b246549fa1">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-7bb5a835a8b499d1a7fa536796a7a61ac2d6f62a.jar" />
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-7ce9d08acf2e034d61e59839c298ff77892f8717.jar" />
     </item>
     <item
         jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
@@ -198,11 +65,67 @@
         <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-be478bca9a3471aecca9ca56d63bae302b1fc9de.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-7ce9d08acf2e034d61e59839c298ff77892f8717.jar" />
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-b14923ad7f315501a19efc62375cc74801e608ac.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d08750273352a2745c7a5fa1625d3936daf8d3e2.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/core/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e8b6879d91dcc5368cf1cdc6cd9599b246549fa1">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-7bb5a835a8b499d1a7fa536796a7a61ac2d6f62a.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-48285023a5b885bf429a4ba874c80363d37c6b4f.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-bc98bac6ef5db73aca2288831a9dc0b1b23ad383.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.4.0/5b72bf48563ea8410e650de14aa33ff69a3e8c35/okio-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5b72bf48563ea8410e650de14aa33ff69a3e8c35">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okio-1.4.0-89ec41584432c79ee2049aa32684058febd7f0b0.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.ibm.mobilefirstplatform.clientsdk.android/push/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="041ea8c72bacdb10270b30771ed382fa753078eb">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-959281f7efc1a39c93c97dc273d6c167d5e917bf.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-8bbd3b66939a5e21c66a10c41b15de56263380c5.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-4bb42cc99845959313f79e934a778e69aed448ba.jar" />
     </item>
     <item
         jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
@@ -212,11 +135,88 @@
         <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-764d77b71974704d5edae72874fe05ff971a54c7.jar" />
     </item>
     <item
-        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.0"
-        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
-        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-d040237dca3cd9a37bb15c08dfd443e19c5f6ad6.jar" />
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-fc859397b9e2aff65d35a23ee76982e33e2d5a61.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.4.0/40340c0748190fe897baf7bffbc1b282734294e5/okhttp-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="40340c0748190fe897baf7bffbc1b282734294e5">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/okhttp-2.4.0-5d68198ab8dae5f0af71479307bb40ea117a0133.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-44642b8933bcaee1a44cbff58559330a0341d3d0.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-245aef177ad16c1b8a7ace7e993b045c1cb1a6af.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-b65c86fe579e4def17910f703904e7fee8467c3d.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-376e261826bb839a2ebb86b418b7a7ad5570480f.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-9db515f72786a414baf0fbdb6b472f71a2ac2704.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-b136fa969e199ce5b1eef620ff7a571e6317e434.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-6d2a851041668adf96243a109ad2866679f169f6.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-56c3e9fc4528638c1b96e4fb944a0fc57fdcf353.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-f0658f4e111845668fd21d5af3e297e21303e1f0.jar" />
+    </item>
+    <item
+        jar="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/jmcdaniel/projects/bodylytics.git/bms-clientsdk-android-push-master/app/build/intermediates/pre-dexed/debug/classes-1a3caf5a31f80e82af8e66e7b350fea3abdba795.jar" />
     </item>
 
 </items>
