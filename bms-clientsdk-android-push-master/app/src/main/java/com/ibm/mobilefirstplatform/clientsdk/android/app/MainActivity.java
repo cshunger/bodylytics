@@ -1,6 +1,7 @@
 package com.ibm.mobilefirstplatform.clientsdk.android.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -146,7 +147,7 @@ public class MainActivity extends Activity {
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
-
+                startActivity(new Intent(MainActivity.this, InputResponseCode.class));
             }
         });
 
